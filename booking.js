@@ -1,5 +1,7 @@
 function sendEmail(){Email.send({
-  secureToken: "3956a406-03ab-42fd-a20e-f6191021a9bb",
+    Host : "smtp.gmail.com",
+    Username : "kingsvillevisualsgallery@gmail.com",
+    Password : "1234Ismaila",
     To : 'kingsvillevisualsgallery@gmail.com',
     From : document.getElementById("Email").value,
     Subject : "New Request",
