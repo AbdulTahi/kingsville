@@ -13,26 +13,26 @@
 <body>
         <section>
             <div class="container">
-                <form onsubmit="sendEmail(); reset(); return false;">
+                <form action="https://formsubmit.co/kingsvillevisualsgallery@gmail.com" method="POST" onsubmit="sendEmail(); reset(); return false;">
             <h2>Kingsville Contact Form</h2>
         <div class="row100">
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" id="Fname" name="" required="required">
+                    <input type="text" id="Fname" name="fname" required="required">
                     <span class="text">First Name</span>
                     <span class="line"></span>
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" id="Lname" name="" required="required">
+                    <input type="text" id="Lname" name="lname" required="required">
                     <span class="text">Last Name</span>
                     <span class="line"></span>
                 </div>
             </div>
             <div class="col">
                 <div class="inputBox">
-                    <input type="text" id="Email" name="" required="required">
+                    <input type="text" id="Email" name="email" required="required">
                     <span class="email">Email</span>
                     <span class="line"></span>
                 </div>
@@ -55,6 +55,7 @@
                </div> 
             </div>
         </div>
+        <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html">
 
         <div class="row100">
             <div class="col">
@@ -65,7 +66,7 @@
         </div>
     </section>
 </body>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://abdultahi.github.io/kingsville/booking.js"></script>
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://abdultahi.github.io/kingsville/booking.js"></script> -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </html>
